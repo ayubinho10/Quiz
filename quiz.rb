@@ -6,6 +6,10 @@ questions = [
   Question.new("Vad svarar 5.class?", "Integer"),
 ]
 
+  Questions.new("Vad heter min goat?","Snowbunnies")
+  Questions.new("Vem är bäst?", "Jag")
+  Questions.new("Vem soloar?", "Goku")
+
 score = 0
 
 questions.each do |q|
