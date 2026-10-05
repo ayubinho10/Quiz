@@ -15,8 +15,13 @@ class Question
   def correct?(reply)
     reply.strip.downcase == answer.downcase
   end
-
+  
+  def hint
+    answer[0]
+  end
+  
  def to_s
   prompt
  end
 end
+

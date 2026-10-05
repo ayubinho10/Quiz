@@ -19,7 +19,7 @@ questions.each do |q|
     puts "Rätt!"
     score += 1
   else
-    puts "Fel. Rätt svar: #{q.answer}"
+    puts "Fel! Ledtråd: #{q.hint}"
   end
 end
 
