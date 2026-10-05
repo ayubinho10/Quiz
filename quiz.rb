@@ -4,11 +4,12 @@ questions = [
   Question.new("Vad heter huvudstaden i Norge?", "Oslo"),
   Question.new("Vilket år släpptes Ruby 1.0?", "1996"),
   Question.new("Vad svarar 5.class?", "Integer"),
+  Question.new("Vad heter min goat?","Snowbunnies"),
+  Question.new("Vem är bäst?", "Jag"),
+  Question.new("Vem soloar?", "Goku"),
 ]
 
-  Questions.new("Vad heter min goat?","Snowbunnies")
-  Questions.new("Vem är bäst?", "Jag")
-  Questions.new("Vem soloar?", "Goku")
+  
 
 score = 0
 

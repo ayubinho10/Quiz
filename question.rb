@@ -1,4 +1,5 @@
 class Question
+  attr_reader :prompt, :answer
   def initialize(prompt, answer)
     raise ArgumentError, "prompt must not be empty" if prompt.empty? 
     
